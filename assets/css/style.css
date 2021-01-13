@@ -228,7 +228,7 @@ h3 {
 }
 
 .mobile-nav-toggle i {
-  color:#19718c;
+  color:white;
 }
 
 .mobile-nav-active {
@@ -286,9 +286,13 @@ h3 {
 } */
 
 #hero p {
-  color: black;
+  color: white;
+  padding-top : 5px;
   padding-bottom: 4px;
-  font-size: 1.1em;
+  margin-left: 70px;
+  margin-right: 50px;
+  opacity: 60%;
+  font-size: 3em;
   font-family: 'Song Myung', serif;
   letter-spacing: 1px;
 }
@@ -354,7 +358,7 @@ section {
 # about
 --------------------------------------------------------------*/
 /* .about .dreamcollct img-hover{
-  
+
 } */
 
 .about img:hover {
@@ -601,7 +605,8 @@ section {
 # Breadcrumbs
 --------------------------------------------------------------*/
 .breadcrumbs {
-  padding: 20px 0;
+  padding: 15px 0;
+  padding-left: 20px;
   background: #f9f9f9;
 }
 
@@ -615,8 +620,8 @@ section {
   flex-wrap: wrap;
   list-style: none;
   padding: 0;
-  margin: 0;
-  font-size: 15px;
+  margin-bottom: 2px;
+  font-size: 12px;
 }
 
 .breadcrumbs ol li + li {
@@ -757,7 +762,8 @@ section {
 
 @media (max-width: 1199px) {
   #footer {
-    position: fixed;
+    position: relative;
+    bottom:0px;
     width: 100%;
     padding-right: 20px 15px;
   }
